@@ -15,6 +15,6 @@
   /lib/x86_64-linux-gnu/ld-*.so mr,
   owner /usr/local/bin/px/X.sh rux,
   /var/X mwr,
-  /var/Y mwr,
+  /var/Y mwrux,
 
 }
