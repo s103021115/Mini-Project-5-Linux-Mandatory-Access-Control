@@ -23,8 +23,9 @@ step 3
 更改profiles
   使用vim編輯
   這次作業的Program X需要/var/X/、/var/Y/的權限 所以將其新增進去
+  //w為寫入、r為讀取、ux為可以執行(因為X要執行Y所以多加權限)
   /var/X mwr,
-  /var/Y mwrux,  //w為寫入、r為讀取、ux為可以執行(因為X要執行Y所以多加權限)
+  /var/Y mwrux,  
   
   owner /usr/local/bin/px/X.sh rux, //在前面加上owner表示只有Program X的擁有者可以使用
   
